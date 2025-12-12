@@ -1,0 +1,18 @@
+# Terraform
+.terraform/
+.terraform*
+.terraform.lock*
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+crash.log
+*.tfvars
+!*.tfvars.example
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Local development files
+CLAUDE.md
+plan.md
